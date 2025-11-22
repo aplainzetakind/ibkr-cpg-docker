@@ -1,0 +1,3 @@
+0 */12 * * * /root/login.sh >> /proc/1/fd/1 2>&1
+*/2 * * * * /root/heartbeat.sh >> /proc/1/fd/1 2>&1
+
